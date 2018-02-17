@@ -1,0 +1,31 @@
+body {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+}
+
+#owl {
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#information {
+  font-style: italic;
+}
+
+span {
+  font-weight: bold;
+}
+
+.border {
+  border-style: groove;
+  border-radius: 10px;
+  border-color: #FFFF00;
+  padding: 3%;
+  background-color: #ADFF2F;
+}
+
+.shadow {
+  box-shadow: 5px 5px 10px grey;
+  background-color: #9ACD32;
+}
