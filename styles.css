@@ -3,29 +3,34 @@ body {
   width: -moz-min-content;
 }
 
-#owl {
-  width: 300px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-#information {
-  font-style: italic;
+ul {
+list-style-type: none;
+padding: 0px;
+margin: 12px;
 }
 
 span {
   font-weight: bold;
 }
 
-.border {
-  border-style: groove;
+.owl {
+  width: 300px;
   border-radius: 10px;
-  border-color: #FFFF00;
+  margin-bottom: 10px;
+}
+
+.information {
+  font-style: italic;
+}
+
+.border {
+  border: groove #ffff00;
+  border-radius: 10px;
   padding: 3%;
-  background-color: #ADFF2F;
+  background-color: #adff2f;
 }
 
 .shadow {
   box-shadow: 5px 5px 10px grey;
-  background-color: #9ACD32;
+  background-color: #9acd32;
 }
